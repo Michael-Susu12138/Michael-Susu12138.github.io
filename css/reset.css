@@ -1,0 +1,22 @@
+/* take into account borders and padding into set dimensions of any div/article/box etc. */
+.clearfix {
+    overflow: auto;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: black;
+    /* background-color: rgb(116, 149, 214); */
+}
+
